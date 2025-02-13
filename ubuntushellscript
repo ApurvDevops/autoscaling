@@ -10,5 +10,3 @@ sudo apt install python3-apt -y
 sudo apt install stress -y 
 sudo apt install git -y  
 sudo git clone https://github.com/ApurvDevops/autoscaling.git /myrepo
-sleep 10
-ansible-playbook /myrepo/playbook.yaml
